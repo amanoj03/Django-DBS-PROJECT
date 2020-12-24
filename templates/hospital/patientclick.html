@@ -1,0 +1,32 @@
+{% extends 'hospital/homebase.html' %}
+<!--
+developed By : sumit kumar
+facebook : fb.com/sumit.luv
+youtube : youtube.com/lazycoders
+-->
+
+{% block content %}
+
+<br />
+<br />
+
+<div class="jumbotron" style="margin-bottom: 0px">
+  <h1 class="display-4" style="text-align: left">Welcome to MARS HealthCare</h1>
+  <p class="lead">You are now in the Hospital Management System</p>
+  <hr class="my-4" />
+  <p></p>
+  <div class="lead">
+    <p>
+      Log In to See Your Details
+      <a class="btn btn-primary btn-lg" href="/patientlogin" role="button"
+        >Login to Your Patient Account</a
+      ><br /><br />
+      New to MARS HealthCare?
+      <a class="btn btn-primary btn-lg" href="/patientsignup" role="button"
+        >Register Your Patient Account</a
+      >
+    </p>
+  </div>
+</div>
+
+{% endblock content %}
